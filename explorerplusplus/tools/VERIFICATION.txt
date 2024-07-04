@@ -1,0 +1,25 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The embedded software has been downloaded from the listed download
+location on <https://explorerplusplus.com/download>
+and can be verified by doing the following:
+
+1. Download the following:
+  32-Bit software: <https://download.explorerplusplus.com/stable/1.4.0/explorerpp_x86.zip>
+  64-Bit software: <https://download.explorerplusplus.com/stable/1.4.0/explorerpp_x64.zip>
+
+
+2.  You can use one of the following methods to obtain the checksum: 
+    - Use powershell function 'Get-FileHash'
+    - Use Chocolatey utility 'checksum.exe'
+
+3.  Compare to Checksum:
+
+  checksum type: sha256
+  checksum32: 39E70F86895568138AB509D5965E104CBCA56DDA05AC1925FD7E65A57DA7BC40
+  checksum64: 81EC54586DFEF888B886D409AFA22E31F22D4F6BA35D52D93074B4EE64B79B0C
+
+The file 'LICENSE.txt' is obtained from:
+  <https://github.com/derceg/explorerplusplus/blob/master/LICENSE>
