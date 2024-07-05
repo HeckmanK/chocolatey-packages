@@ -1,13 +1,23 @@
-﻿
-Note: Include this file if including binaries you have the right to distribute.
-Otherwise delete. this file. If you are the software author, you can mention
-this.
+﻿VERIFICATION
 
-===DELETE ABOVE THIS LINE AND THIS LINE===
-
-VERIFICATION
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
-<Include details of how to verify checksum contents>
-<If software vendor, explain that here>
+The embedded software has been downloaded from the listed download
+location on <http://www.pdfill.com/download.html>
+and can be verified by doing the following:
+
+1. Download the following:
+
+  url: <https://www.plotsoft.com/download/PDFill_FREE_PDF_Editor_Basic.msi>
+
+2.  You can use one of the following methods to obtain the checksum: 
+    - Use powershell function 'Get-FileHash'
+    - Use Chocolatey utility 'checksum.exe'
+
+3.  Compare to Checksum:
+
+    sha256: D1B7B7CB91B7887830234BB3AEB31E7A95393C9A00322105D6D78059CABD734D
+
+The file 'LICENSE.txt' is obtained from:
+  <https://www.pdfill.com/license.html>

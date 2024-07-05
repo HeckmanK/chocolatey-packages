@@ -1,11 +1,59 @@
-﻿
-Note: Include this file if including binaries you have the right to distribute.
-Otherwise delete. this file.
+﻿From: https://www.pdfill.com/license.html
 
-===DELETE ABOVE THIS LINE AND THIS LINE===
+PDFill License
 
-From: <insert applicable license url here>
+PlotSoft L.L.C.
 
-LICENSE
+Your Agreement to this License
 
-<Insert License Here>
+By using, copying, transmitting, distributing or installing PDFill ("PDFill"),  you agree to all of the terms of this agreement (License).
+
+Please read the license terms below. If you do not agree to all of the terms of this license, you can not use, copy, transmit, distribute, or install PDFill.
+
+Scope of License
+
+A Copy of PDFill FREE PDF Editor Basic can be used on any computer for your purposes (Personal or Commercial) in any time. You can freely distribute any copies of the PDFill FREE PDF Editor Basic with the free evaluation copy of the PDFill PDF Editor Professional. The new PDF created by PDFill FREE PDF Editor Basic contains no watermarks. It is absolutely FREE!
+
+A Copy of PDFill FREE PDF Tools can be used on any computer for your purposes (Personal or Commercial) in any time. You can freely distribute any copies of the PDFill PDF Tools with the free evaluation copy of the PDFill PDF Editor Professional. The new PDF created by PDFill PDF Tools contains no watermarks. It is absolutely FREE!
+
+A Copy of PDFill FREE PDF Writer can be used on any computer for your purposes (Personal or Commercial) in any time. You can freely distribute any copies of the PDFill PDF Writer with the free evaluation copy of the PDFill PDF Editor Professional. The new PDF created by PDFill PDF Writer contains no watermarks. It is absolutely FREE!
+
+A Copy of PDFill FREE Image Writer can be used on any computer for your purposes (Personal or Commercial) in any time. You can freely distribute any copies of the PDFill Image Writer with the free evaluation copy of the PDFill PDF Editor Professional. The new Image created by PDFill Image Writer contains no watermarks. It is absolutely FREE!
+
+A free Evaluation Copy of PDFill PDF Editor (Professional or Enterprise) may be used on one computer or workstation for your evaluation purposes in any time. You can freely distribute any copies of the evaluation version of PDFill PDF Editor (Professional or Enterprise). With PDFill PDF Editor (Professional or Enterprise) Evaluation, the advertising information will be included into the new edited PDF file. If you want to get rid of the advertising, a registration fee is required to get the standard license. See PDFill website http://www.PDFill.com for information about online ordering and quantity discounts.
+
+A Licensed Copy of PDFill PDF Editor (Professional or Enterprise) may either be used by a single person who uses the software personally on one or more computers, or installed on a single workstation used non-simultaneously by multiple people, but not both. This is not a concurrent use license. Each Licensed Copy may be accessed through a network, provided that you have purchased rights to use a Licensed Copy for each workstation that will access PDFill through the network. For instance, if 2 different workstations will access PDFill on the network, you must purchase rights to use 2 Licensed Copies of PDFill, regardless of whether the 2 workstations will access PDFill at different times or concurrently. Also, you cannot use one licensed copy for both your company and your home. You need to buy each for them.
+
+Activation of PDFill PDF Editor (Professional or Enterprise):  The Licensed Software contains technological measures that are designed to prevent its unlicensed or illegal use. For each copy of the user license, you can only activate on two different machines.
+
+If you want to install the software on a different computer, you must first deactivate the license on your current computer by yourself. We offer NO SUPPORT to deactivate your license on our server side.
+
+In purchasing the present license you understand and agree that it is not replaceable in case of accidental loss, including but not limited to major software recovery operations, software crashes, or hardware theft.
+
+PDFill will not resend you the code after you buy PDFill more than 365 days. Please print your registration information and keep it at a safe place.
+
+FREE Upgrade of PDFill PDF Editor (Professional or Enterprise): 
+
+The license for PDFill PDF Editor is lifetime. You have free upgrades as long as you keep the registration code and follow the rule of activation/deactivation.
+
+PDFill 14.0 or earlier registered versions are FREE to upgrade to future Professional Version.
+
+ 
+
+Warranty Disclaimers and Liability Limitations
+
+PDFill, and any and all accompanying software, files, data and materials, are distributed and provided AS IS and with no warranties of any kind, whether express or implied.
+
+You acknowledge that good data processing procedure dictates that any program, including PDFill, must be thoroughly tested with non-critical data before you rely on it, and you hereby assume the entire risk of using the program. This disclaimer of warranty constitutes an essential part of this License.
+
+Any liability of PlotSoft will be limited exclusively to refund of purchase price, if any. In addition, in no event shall PlotSoft, or its principals, shareholders, officers, employees, affiliates, contractors, subsidiaries, or parent organizations, be liable for any indirect, incidental, consequential, or punitive damages whatsoever relating to the use of PDFill, or to your relationship with PlotSoft.
+
+In addition, in no event does PlotSoft authorize you to use PDFill in applications or systems where PDFill's failure to perform can reasonably be expected to result in a significant physical injury, or in loss of life. Any such use by you is entirely at your own risk, and you agree to hold PlotSoft harmless from any and all claims or losses relating to such unauthorized use.
+
+ 
+
+General
+
+All rights of any kind in PDFill which are not expressly granted in this License are entirely and exclusively reserved to and by PlotSoft. You may not rent, lease, modify, translate, reverse engineer, decompile, disassemble, or create derivative works based on, PDFill. You may not make access to PDFill available to others in connection with a service bureau, application service provider, or similar business.
+
+This License is the complete statement of the agreement between the parties on the subject matter, and merges and supersedes all other or prior understandings, purchase orders, agreements and arrangements. This License shall be governed by the laws of the State of Missouri, without regard to Missouri choice-of-law rules. Exclusive jurisdiction and venue for all matters relating to this License shall be in courts and fora located in the State of Missouri, and you consent to such jurisdiction and venue. There are no third party beneficiaries of any promises, obligations or representations made by PlotSoft herein. Any waiver by PlotSoft of any violation of this License by you shall not constitute or contribute to a waiver of any other or future violation by you of the same provision, or any other provision, of this License.
