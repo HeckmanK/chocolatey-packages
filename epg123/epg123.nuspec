@@ -10,7 +10,7 @@
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>1.8.2.12</version>
+    <version>1.8.3.0</version>
     <packageSourceUrl>https://github.com/HeckmanK/chocolatey-packages/tree/main/epg123</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>HeckmanK</owners>
@@ -24,7 +24,7 @@
     <projectUrl>https://garyan2.github.io/</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
     <iconUrl>https://rawcdn.githack.com/HeckmanK/chocolatey-packages/4a47c19936509302be1fe121bc89dea7210967b7/icons/epg123.png</iconUrl>
-    <copyright>Copyright (c) 2019 GaRyan2</copyright>
+    <copyright>Copyright (c) 2021 GaRyan2</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://github.com/garyan2/epg123/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
