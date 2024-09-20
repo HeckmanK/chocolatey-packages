@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64      = 'https://www.pdfgear.com/download/pdfgear_setup_v2.1.6.exe'
+$url64      = 'https://www.pdfgear.com/download/pdfgear_setup_v2.1.8.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -8,7 +8,7 @@ $packageArgs = @{
   fileType      = 'EXE'
   url64bit      = $url64
   softwareName  = 'pdfgear*'
-  checksum64    = '1941ED148B7DECA35E95E0D915F71944B34C3B15BA4D05CBB0A01A83D9E038CE'
+  checksum64    = '088C276FE54F8641F98AF34CC9FF67E514EFA1F4895BBBC0C3508D04C83C3E04'
   checksumType64= 'sha256'
 
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
