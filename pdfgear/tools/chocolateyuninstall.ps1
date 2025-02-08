@@ -1,32 +1,36 @@
-﻿$ErrorActionPreference = 'Stop'
-$packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  softwareName  = 'pdfgear*'
-  fileType      = 'EXE'
-  silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-  validExitCodes= @(0)
+$ErrorActionPreference = 'Stop'
+
+$packageName = $env:ChocolateyPackageName
+$softwareName = 'pdfgear*'
+
+[array]$key = Get-UninstallRegistryKey -SoftwareName $softwareName
+
+if ($key.Count -eq 0) {
+    Write-Warning "$packageName has already been uninstalled or not found in the registry."
+    return
+} elseif ($key.Count -gt 1) {
+    Write-Warning "Multiple matches found for $softwareName. Manual intervention required."
+    $key | ForEach-Object { Write-Warning "- $($_.DisplayName)" }
+    return
 }
 
-[array]$key = Get-UninstallRegistryKey -SoftwareName $packageArgs['softwareName']
+$uninstallString = $key[0].UninstallString
+if (-Not (Test-Path $uninstallString)) {
+    Write-Warning "Uninstall path not found: $uninstallString"
+    return
+}
 
-if ($key.Count -eq 1) {
-  $key | % {
-    $packageArgs['file'] = "$($_.UninstallString)"
+$installerArgs = @{
+    packageName   = $packageName
+    file          = $uninstallString
+    fileType      = 'EXE'
+    silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+    validExitCodes= @(0, 3010, 1641)
+}
 
-    if ($packageArgs['fileType'] -eq 'MSI') {
-      $packageArgs['silentArgs'] = "$($_.PSChildName) $($packageArgs['silentArgs'])"
-
-      $packageArgs['file'] = ''
-    } else {
-    }
-
-    Uninstall-ChocolateyPackage @packageArgs
-  }
-} elseif ($key.Count -eq 0) {
-  Write-Warning "$packageName has already been uninstalled by other means."
-} elseif ($key.Count -gt 1) {
-  Write-Warning "$($key.Count) matches found!"
-  Write-Warning "To prevent accidental data loss, no programs will be uninstalled."
-  Write-Warning "Please alert package maintainer the following keys were matched:"
-  $key | % {Write-Warning "- $($_.DisplayName)"}
+try {
+    Uninstall-ChocolateyPackage @installerArgs
+} catch {
+    Write-Error "An error occurred during uninstallation: $_"
+    throw
 }
