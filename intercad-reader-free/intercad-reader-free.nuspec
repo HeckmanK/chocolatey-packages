@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <!-- This section is about this package, although id and version have ties back to the software -->
+    <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
+    <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
+    <id>intercad-reader-free</id>
+    <!-- version should MATCH as closely as possible with the underlying software -->
+    <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
+    <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
+    <version>2024.250213.161130</version>
+    <packageSourceUrl>https://github.com/HeckmanK/chocolatey-packages/tree/main/intercad-reader-free</packageSourceUrl>
+    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
+    <owners>KevinHeckman</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>intercad-reader-free</title>
+    <authors>Interxsoft Corporation</authors>
+    <!-- projectUrl is required for the community feed -->
+    <projectUrl>https://www.intercad.com/product.html?co_id=reader</projectUrl>
+    <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
+    <iconUrl>https://rawcdn.githack.com/HeckmanK/chocolatey-packages/ac1840c6dbece494e001e57192db5e0b67e3c765/icons/intercad-reader-free.png</iconUrl>
+    <copyright>2025 © Interxsoft</copyright>
+    <!-- If there is a license Url available, it is required for the community feed -->
+    <licenseUrl>https://www.intercad.com/product/reader/interCAD_Reader_EULA_EN.pdf</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    
+    <docsUrl>https://www.intercad.com/product.html?co_id=reader</docsUrl>
+    <tags>intercad-reader-free Gerber ODB++ IXD compare print sign collaborate comment</tags>
+    <summary>Free software that supports reading, comparing, and printing Gerber, ODB++, and
+IXD files</summary>
+    <description>interCAD Reader is free software that supports reading, comparing, and printing Gerber, ODB++, and IXD files.
+You can verify, compare changes, sign, collaborate, and add comments on data from Gerber, ODB++, and IXD files.</description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
