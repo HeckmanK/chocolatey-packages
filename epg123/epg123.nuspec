@@ -10,10 +10,10 @@
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>1.8.3.1</version>
+    <version>1.8.3.4</version>
     <packageSourceUrl>https://github.com/HeckmanK/chocolatey-packages/tree/main/epg123</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
-    <owners>HeckmanK</owners>
+    <owners>KevinHeckman</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
@@ -75,22 +75,6 @@ To install the client files:
 `choco install epg123 -params '"/TYPE=client"'`
 </description>
 <releaseNotes>https://github.com/garyan2/epg123/releases</releaseNotes>
-    <!-- =============================== -->
-
-    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
-    <!--<dependencies>
-      <dependency id="" version="__MINIMUM_VERSION__" />
-      <dependency id="" version="[__EXACT_VERSION__]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
-      <dependency id="" />
-      <dependency id="chocolatey-core.extension" version="1.1.0" />
-    </dependencies>-->
-    <!-- chocolatey-core.extension - https://community.chocolatey.org/packages/chocolatey-core.extension -->
-
-    <!--<provides>NOT YET IMPLEMENTED</provides>-->
-    <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
-    <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
