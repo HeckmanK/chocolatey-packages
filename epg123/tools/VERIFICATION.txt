@@ -9,7 +9,7 @@ and can be verified by doing the following:
 
 1. Download the following:
 
-  url: <https://github.com/garyan2/epg123/releases/download/1.8.4.0/epg123Setup_v1.8.4.0.zip>
+  url: <https://github.com/garyan2/epg123/releases/download/1.8.4.1/epg123Setup_v1.8.4.1.zip>
 
 2.  You can use one of the following methods to obtain the checksum: 
     - Use powershell function 'Get-FileHash'
@@ -17,7 +17,7 @@ and can be verified by doing the following:
 
 3.  Compare to Checksum:
 
-    sha256: 5a9cfbf70e751f882c0b2605860aba0ccc2141738ae4bb24d458523770e59992
+    sha256: b7e299ce37fbec03aeb0d5ecbcf06d1ded4d4fdd41c23ee4f80961113b06c1af
 
 The file 'LICENSE.txt' is obtained from:
   <https://github.com/garyan2/epg123/blob/master/LICENSE>
