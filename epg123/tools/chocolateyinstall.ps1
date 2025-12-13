@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$fileFullPath = Join-Path $toolsDir 'epg123Setup_v1.8.4.2.zip'
+$fileFullPath = Join-Path $toolsDir 'epg123Setup_v1.8.4.3.zip'
 
 Get-ChocolateyUnzip -FileFullPath $fileFullPath -destination $toolsDir
 $fileLocation = (Get-ChildItem -Path $toolsDir -Filter "epg123*.exe").FullName
