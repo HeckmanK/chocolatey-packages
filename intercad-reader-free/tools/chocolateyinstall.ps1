@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.intercad.com/member/download.jsp?dir=/file/program_download&Indx=4'
+$url        = '	https://www.intercad.com/mypage/contents/download.jsp?dir=/file/program_download&Indx=4'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -8,7 +8,7 @@ $packageArgs = @{
   fileType      = 'EXE'
   url           = $url
   softwareName  = 'interCAD Reader*'
-  checksum      = '203089fabc61d136fc38e6e27c2090cf727115896e8183cb7d094f820b622ab0'
+  checksum      = '8cbc7d376c74b324b29111eb4606eea241d5eda71765e9c704ae98ff30894f11'
   checksumType  = 'sha256'
   silentArgs   = '/s /v"/qn"'
   validExitCodes= @(0)
