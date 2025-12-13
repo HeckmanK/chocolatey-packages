@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = '	https://www.intercad.com/mypage/contents/download.jsp?dir=/file/program_download&Indx=4'
+$url        = 'https://www.intercad.com/mypage/contents/download.jsp?dir=/file/program_download&Indx=4'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
