@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>intercad-reader-free</id>
-    <version>2025.251211</version>
+    <version>2026.260715</version>
     <packageSourceUrl>https://github.com/HeckmanK/chocolatey-packages/tree/main/intercad-reader-free</packageSourceUrl>
     <owners>KevinHeckman</owners>
     <!-- ============================== -->
@@ -16,12 +16,12 @@
     <projectUrl>https://www.intercad.com/product.html?co_id=reader</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
     <iconUrl>https://rawcdn.githack.com/HeckmanK/chocolatey-packages/ac1840c6dbece494e001e57192db5e0b67e3c765/icons/intercad-reader-free.png</iconUrl>
-    <copyright>2025 © Interxsoft</copyright>
+    <copyright>2026 © Interxsoft Corporation</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
-    <licenseUrl>https://www.intercad.com/product/reader/interCAD_Reader_EULA_EN.pdf</licenseUrl>
+    <licenseUrl>https://www.intercad.com/en/product/interCAD_Reader_EULA_EN.pdf</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     
-    <docsUrl>https://www.intercad.com/product.html?co_id=reader</docsUrl>
+    <docsUrl>https://www.intercad.com/en/support/manual</docsUrl>
     <tags>intercad-reader-free Gerber ODB++ IXD compare print sign collaborate comment</tags>
     <summary>Free software that supports reading, comparing, and printing Gerber, ODB++, and
 IXD files</summary>
