@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>intercad-reader-free</id>
-    <version>2026.260715</version>
+    <version>2026.260730</version>
     <packageSourceUrl>https://github.com/HeckmanK/chocolatey-packages/tree/main/intercad-reader-free</packageSourceUrl>
     <owners>KevinHeckman</owners>
     <!-- ============================== -->
@@ -27,6 +27,7 @@
 IXD files</summary>
     <description>interCAD Reader is free software that supports reading, comparing, and printing Gerber, ODB++, and IXD files.
 You can verify, compare changes, sign, collaborate, and add comments on data from Gerber, ODB++, and IXD files.</description>
+<releaseNotes>https://www.intercad.com/en/support/release-note</releaseNotes>
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
